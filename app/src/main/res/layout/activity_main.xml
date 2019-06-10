@@ -17,13 +17,22 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
+        android:id="@+id/btn_init_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="init_test 识别"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_idcard" />
+    <Button
         android:id="@+id/btn_pre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="上一张"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_idcard" />
+        app:layout_constraintTop_toBottomOf="@id/btn_init_test" />
 
     <Button
         android:id="@+id/btn_next"
